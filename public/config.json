@@ -1,0 +1,81 @@
+{
+    "workflowApiVersion": "1.1",
+    "metaData":
+    {
+        "icon": "images/icon.png",
+        "iconSmall": "images/iconSmall.png",
+        "category": "custom"
+    },
+
+    "type": "REST",
+    "lang":
+    {
+        "en-US":
+        {
+            "name": "Test_App",
+            "description": "just dummy app",
+            "step1Label": "Configure Activity"
+        }
+    },
+    "arguments":
+    {
+        "execute":
+        {
+            "inArguments": [],
+            "outArguments": [],
+            "url": "<HTTPS_URL_OF_APP>/journeybuilder/execute",
+            "verb": "POST",
+            "body": "",
+            "header": "",
+            "format": "json",
+            "useJwt": true,
+            "timeout": 10000
+        }
+    },
+    
+    "configurationArguments":
+    {
+        "applicationExtensionKey": "<APP EXTENSION KEY>",
+        "save":
+        {
+            "url": "<HTTPS_URL_OF_APP>/journeybuilder/save",
+            "verb": "POST",
+            "useJwt": true
+        },
+        "publish":
+        {
+            "url": "<HTTPS_URL_OF_APP>/journeybuilder/publish",
+            "verb": "POST",
+            "useJwt": true
+        },
+        "stop":
+        {
+            "url": "<HTTPS_URL_OF_APP>/journeybuilder/stop",
+            "verb": "POST",
+            "useJwt": true
+        },
+        "validate":
+        {
+            "url": "<HTTPS_URL_OF_APP>/journeybuilder/validate",
+            "verb": "POST",
+            "useJwt": true
+        }
+    },
+    "userInterfaces":
+    {
+        "configModal": {
+            "height": 700,
+            "width": 1000,
+            "fullscreen": false
+        }
+    },
+    "schema": 
+    {
+        "arguments":{
+            "execute": {
+                "inArguments": [],
+                "outArguments": []
+            }
+        }
+    }
+}
