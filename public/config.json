@@ -23,7 +23,7 @@
         {
             "inArguments": [],
             "outArguments": [],
-            "url": "https://custom-mntet6z7e-precool31s-projects.vercel.app/execute",
+            "url": "https://custom-api-sandy.vercel.app/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -38,25 +38,25 @@
         "applicationExtensionKey": "998d8008-47e3-465e-aa06-56e84db528bc",
         "save":
         {
-            "url": "https://custom-mntet6z7e-precool31s-projects.vercel.app/save",
+            "url": "https://custom-api-sandy.vercel.app/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "https://custom-mntet6z7e-precool31s-projects.vercel.app/publish",
+            "url": "https://custom-api-sandy.vercel.app/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "https://custom-mntet6z7e-precool31s-projects.vercel.app/stop",
+            "url": "https://custom-api-sandy.vercel.app/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "https://custom-mntet6z7e-precool31s-projects.vercel.app/validate",
+            "url": "https://custom-api-sandy.vercel.app/validate",
             "verb": "POST",
             "useJwt": true
         }
