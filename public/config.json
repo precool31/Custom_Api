@@ -29,7 +29,9 @@
             "header": "",
             "format": "json",
             "useJwt": true,
-            "timeout": 10000
+            "timeout": 99000,
+            "retryCount": 1,
+            "retryDelay": 50000
         }
     },
     
