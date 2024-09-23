@@ -35,7 +35,6 @@
     
     "configurationArguments":
     {
-        "applicationExtensionKey": "998d8008-47e3-465e-aa06-56e84db528bc",
         "save":
         {
             "url": "https://custom-api-sandy.vercel.app/save",
